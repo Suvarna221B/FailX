@@ -931,7 +931,7 @@ body,html{
 		{
 		
 					font-size:25px;
-					margin-top: 10vw;
+					margin-top: 80vw;
 					
 						
 		
@@ -984,7 +984,7 @@ body,html{
 		{
 		
 					font-size:25px;
-					margin-top: 10vw;
+					margin-top: 50vh;
 					
 						
 		
@@ -1602,8 +1602,16 @@ body,html{
 		{
 			background-color: white;
 			position: relative;
+		
 
 		
+		}
+		@media only screen and (max-width: 768px) 
+		{
+			.aboutpara
+			{
+				margin-bottom:2000px;
+			}
 		}
 
 		.head
@@ -1624,6 +1632,7 @@ body,html{
 			position: relative;
 			margin-left: 10vw;
 			margin-right: 10vw;
+			
 
 
 		}
@@ -1661,7 +1670,7 @@ body,html{
 		 		text-align: center !important;
 		 		align-items: center;
 				margin-top: 10vw;
-				font-size=12vw;
+				font-size:12vw;
 				font-family: 'Montserrat';
 			        font-weight: bold;
 		 	}
@@ -1684,7 +1693,8 @@ body,html{
 		 		border-left: 15px;
 		 		align-items: center;
 		 		margin-left: 10vw;
-		 		margin-right: 10vw;
+				 margin-right: 10vw;
+				
 		 	
 		 	}
 		 	.respon1{
