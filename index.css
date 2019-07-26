@@ -1,4 +1,4 @@
-body,html{
+	body,html{
 	margin:0;
 	overflow-x: hidden;
 	font-family: 'Montserrat';
@@ -2128,3 +2128,74 @@ footer {
 
 
   	}  /* Footer ends here */
+.join{
+	text-align: center;
+	font-size: 3vh;
+	padding: 5vh;
+
+}
+.b{
+	padding: 5vh;
+	text-align: center;
+}
+
+.a3{
+	 
+     
+  position: relative;
+    width: 300px;
+    height: 100px;
+    line-height:60px;
+    text-align:center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color:black;
+    font-size:20px;
+    padding: 30px;
+    border:2px solid black;
+    border-radius:30px;
+    transition: all 0.5s ease  ;
+}
+.a3:before{
+  content:"";
+  position: absolute;
+  background: linear-gradient(to   right,background-color: #f7b42c;
+background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+);
+   background-size:400%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 0%;
+  height: 100%;
+  transition:all 0.6s ease  ;
+  z-index: -1;
+  border-radius:30px;
+}
+.a3:after{
+   content:"";
+   background: linear-gradient(to   right,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size:400%;
+  position: absolute;
+  top:-5px;
+  right: -5px;
+  left: -5px;
+  bottom:-5px;
+  z-index: -1;
+  border-radius:40px;
+  filter: blur(20px);
+  opacity: 0;
+  transition:0.5s;
+}
+.a3:hover{
+  border:1px solid transparent;
+}
+.a3:hover:before{
+    width: 100%;
+  animation:  a 8s linear Infinite;
+}
+.a3:hover:after{
+    opacity: 1;
+  filter: blur(20px);
+  animation:  a  8s linear Infinite;
+}
