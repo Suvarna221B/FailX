@@ -802,8 +802,8 @@ body,html{
 			background-color: black;
 			font-family: 'Montserrat';
 			text-align:center;
-			font-size: 5vh;
-			margin-top: 3vw;
+			font-size: 6vh;
+			margin-top: 30rem;
 		}
     .excelAssociation{
     	width: 100%;
@@ -815,38 +815,34 @@ body,html{
     
     }
     .images{
-    	padding-left: 5vw;
-    	margin-left: 5vw;
-    	
+    	margin-left: 9vw;
+    	 border-radius: 50%;
     }
     .grid-item1{
     	width:30vw;
     	  }
     .as{
     	text-align: center;
+    	font-size: 20px;
     }
     .ashead{
     	text-align: center;	
+    	font-size: 40px;
+    }
+    .assubhead{
+    	text-align: center;
     }
 
     .wrapper{
     	display: grid;
     	justify-content: space-around;
-  		grid-template-columns: auto auto auto;
+  		grid-template-columns: auto;
   		grid-row-gap: 7.5vh;
   		grid-column-gap:3vw;
   		padding: 0vw 10vw;
   		
     }
-    .wrapper1{
-    	padding-top: 5vh;
-    	display: grid;
-    	grid-template-columns: auto auto;
-    	margin-left: 20vw;
-    	margin-right: 10vw;
-    	grid-column-gap: 3vw;
-    	margin-bottom: 3vw;
-    }
+ 
     @media (min-width: 500px) and (max-width: 767px) {
   
     	.grid-item1{
