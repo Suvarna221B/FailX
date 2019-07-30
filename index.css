@@ -193,7 +193,7 @@
 }
 .topHead
 {
-	font-size: 2.5em;
+	font-size: 1.5vw;
 	margin-top: 20vh;
 	font-family: comfortaa;
 	background: -webkit-linear-gradient(orange,orangered);
@@ -212,6 +212,7 @@
 	.topHead
 	{
 		margin-top:.1em;
+		font-size:7vw;
 	}
 	.topCon
 	{
@@ -221,6 +222,7 @@
 @media (min-width: 840px) and (max-width: 1800px) {
 	.topHead
 	{
+		/* font-size: 2vh; */
 		margin-top:.5em;
 		
 	}
@@ -799,9 +801,12 @@
 		.about{
 			padding-top: 2.5em;
 			width:100vw;
-			height:58vh;
-			margin-bottom:-130px;
+			height:70vh;
+			margin-bottom:-200px;
 			/* border: 3px solid red; */
+			/* display:flex; */
+			/* justify-content: center; */
+			align-items: center;
 
 		}
 
@@ -828,7 +833,7 @@
 		{
 			.about{
 				height:auto;
-				margin-bottom:2vh;
+				margin-bottom:70vh;
 			}
 		}
                     /* WHY ASSOCIATE WITH EXCEL */
@@ -839,7 +844,8 @@
 			font-family: 'Montserrat';
 			text-align:center;
 			font-size: 5vh;
-			margin-top: 30rem;
+			margin-top: 20vh;
+			/* border: blue solid 2px; */
 		}
     .excelAssociation{
     	width: 100%;
