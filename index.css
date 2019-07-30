@@ -868,7 +868,7 @@
     	  }
     .as{
     	text-align: center;
-    	font-size: 2vh;
+    	font-size: 2.5vh;
 
     }
     .ashead{
@@ -981,20 +981,20 @@
 			
 		}
 		.as{
-			font-size:14px;
+			font-size:15.5px;
 			width: 65vw;
 			padding-top: 1vh;
 			padding-left: 2vh;
 			
 		}
 		.ashead{
-			font-size: 17px;
+			font-size: 18px;
 			width: 50vw;
 			margin-left: 7vw;
 			padding-top: 0.5vh;
 		}
 		.assubhead{
-			font-size: 14px;
+			font-size: 15.5px;
 			padding-left: 2vw;
 		}
 }
@@ -1033,7 +1033,7 @@
 		.whyassociate
 		{
 		
-					font-size:25px;
+					font-size:26px;
 					margin-top: 50vh;
 					
 						
@@ -1041,7 +1041,7 @@
 			
 		}
 		.as{
-			font-size:14px;
+			font-size:15px;
 			width: 70vw;
 			padding-top: 1vh;
 			text-align: center;
@@ -1056,7 +1056,7 @@
 			
 		}
 		.assubhead{
-			font-size: 14px;
+			font-size: 15px;
 			text-align: center;
 			width: 70vw;
 		}
@@ -1126,6 +1126,12 @@
 			
 			padding-left: 0vw;
 		}
+		.as{
+			font-size: 2.5vh;
+		}
+		.ashead{
+			font-size: 3vh;
+		}
 	}
 
 
@@ -1173,10 +1179,10 @@
 			
 		}
 		.as{
-			font-size:18px;
+			font-size:19px;
 		}
 		.ashead{
-			font-size: 18px;
+			font-size: 19px;
 		}
 
 
