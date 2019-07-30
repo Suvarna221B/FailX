@@ -446,8 +446,8 @@
 		/* Box */
 
 			.box {
-				padding: 2.5em;
-				margin-bottom: 4em;
+				padding: 0;
+				/* margin-bottom: 4em; */
 			}
 
 		/* Feature */
@@ -599,8 +599,8 @@
 		/* Box */
 
 			.box {
-				padding: 2em;
-				margin-bottom: 2em;
+				padding: 0;
+				/* margin-bottom: 2em; */
 			}
 
 		/* Feature */
@@ -721,7 +721,8 @@
 		/* Box */
 
 			.box {
-				padding: 2em 1em;
+				padding: 0;
+				/* border: red solid 1px; */
 			}
 
 		/* Feature */
@@ -745,8 +746,8 @@
 
 			#footer {
 				margin-top: -100px;
-				padding-left: 1em;
-				padding-right: 1em;
+				/* padding-left: 1em; */
+				/* padding-right: 1em; */
 			}
 
 				#footer .copyright li {
