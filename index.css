@@ -803,6 +803,7 @@
 			
 			width:100vw;
 			height:70vh;
+			max-height: auto;
 			margin-bottom:-200px;
 			/* border: 3px solid red; */
 			/* display:flex; */
@@ -850,14 +851,11 @@
 		.about
 		 {
 		 	background-color: white;
-			 max-height: 90vw;
+			 height:auto;
 		 }
 
 	 @media (min-width: 320px) and (max-width: 399px)  {
-			.about{
-				height:auto;	
-				
-			}
+	
 			.respon
 		 	{
 		 		max-width: 0px !important;
@@ -899,10 +897,17 @@
 				grid-template-rows: 2fr 5fr;
 			} */
 		}
+		@media (max-width: 768px)
+		{
+			.about{
+				height:auto;
+				margin-bottom:3vh;
+
+		}
 		@media (min-width: 400px) and (max-width: 500px){
 			.about{
 				height:auto;
-				
+				margin-bottom:-300px;
 
 			}
 			
@@ -940,15 +945,14 @@
 			        font-weight: bold;
 		 	}
 		}
-		@media (max-width: 768px)
-		{
+		
+		@media (min-width: 320px) and (max-width: 399px)  {
 			.about{
 				height:auto;
-				margin-bottom:70vh;
+				margin-bottom:-200px;	
+				
 			}
 		}
-
-		
 		
 		
 	
