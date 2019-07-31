@@ -822,6 +822,7 @@
 		{
 			background-color: white;
 			position: relative;
+			text-align:center;
 		
 		}
 
@@ -852,6 +853,8 @@
 		 	background-color: white;
 			 max-height: 90vw;
 		 }
+
+		
 
 		 @media (max-width: 768px)
 		 {
@@ -959,7 +962,7 @@
 
 
 		  
-		 	
+			
 		 		@media only screen and (min-width:501px) and (max-width: 768px)
 		 {
 		 	.respon
@@ -1012,6 +1015,13 @@
 			font-size: 5vh;
 			margin-top: 20vh;
 			/* border: blue solid 2px; */
+		}
+		@media only screen and (min-width:704px) and (max-width:1500px)
+		{
+			.whyassociate
+			{
+
+			}
 		}
     .excelAssociation{
     	width: 100%;
@@ -1253,6 +1263,7 @@
 			margin-left: 10vh;
 			margin-right: 10vh;
 			justify-content: space-around;
+			
 		}
 		.wrapper1{
 			padding-top: 7.5vh;
@@ -1275,6 +1286,7 @@
 		
 					font-size:3vh;
 					padding-top:1vh;
+					margin-top: 3 vh;
 						
 		
 			
@@ -1289,6 +1301,31 @@
 
 
   
+	}
+	@media only screen and (min-width:708px) and (max-width:768px)
+	{
+		.whyassociate
+		{
+			margin-top:40vh;
+		}
+		
+	}
+
+	@media only screen and (min-width:841px) and (max-width:1800px)
+	{
+		.topHead
+		{
+			margin-top:20vh;
+		}
+	}
+
+	@media only screen and (min-width:769px) and (max-width:1500px)
+	{
+		.abtpara{
+			font-size:20px;
+			margin-bottom:-500px;
+		}
+		
 	}
 	@media (min-width: 1025px) and (max-width: 1800px){
 		
