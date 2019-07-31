@@ -886,7 +886,7 @@
     	display: grid;
     	justify-content: space-around;
   		grid-template-columns: auto;
-  		grid-row-gap: 7.5vh;
+  		grid-row-gap: 2vh;
   		grid-column-gap:3vw;
   		padding: 0vw 10vw;
   		
@@ -1005,12 +1005,15 @@
     		width: 70vw;
 			text-align: center;
 			 grid-column: 1 / span 2;
+			 padding-left: 4vw;
 
 		}
 		.wrapper{
 			display: grid;
 			grid-template-columns: auto;
 			grid-row-gap: 3vh;
+
+
 
 		}
 		.wrapper1{
