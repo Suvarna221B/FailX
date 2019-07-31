@@ -904,7 +904,7 @@
 		.wrapper{
 			display: grid;
 			grid-template-columns: auto;
-			grid-row-gap:7.5vh; 
+			grid-row-gap:3vh; 
 			margin-left: 10vw;
 			margin-right: 10vw;
 			justify-content: space-around;
