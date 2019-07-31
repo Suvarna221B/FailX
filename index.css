@@ -1005,7 +1005,7 @@
     		width: 70vw;
 			text-align: center;
 			 grid-column: 1 / span 2;
-			 padding-left: 4vw;
+			 margin-left: 3vw;
 
 		}
 		.wrapper{
