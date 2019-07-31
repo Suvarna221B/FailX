@@ -853,10 +853,23 @@
 			 max-height: 90vw;
 		 }
 
+		 @media (max-width: 768px)
+		 {
+			 .about{
+				 height:auto;
+				 margin-bottom:170px;
+			 }
+		 }
+		 @media (min-width: 400px) and (max-width: 500px){
+			.about{
+				height:auto;
+				margin-bottom:500px;
+			}
+			}
 	 @media (min-width: 320px) and (max-width: 399px)  {
 			.about{
 				height:auto;	
-				
+				margin-bottom:370px;
 			}
 			.respon
 		 	{
@@ -900,11 +913,7 @@
 			} */
 		}
 		@media (min-width: 400px) and (max-width: 500px){
-			.about{
-				height:auto;
-				
-
-			}
+	
 			
 			.respon
 		 	{
@@ -940,13 +949,7 @@
 			        font-weight: bold;
 		 	}
 		}
-		@media (max-width: 768px)
-		{
-			.about{
-				height:auto;
-				margin-bottom:70vh;
-			}
-		}
+	
 
 		
 		
