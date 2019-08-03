@@ -196,7 +196,7 @@
 	font-size: 2.6vw;
 	margin-top: 20vh;
 	font-family: comfortaa;
-	background: -webkit-linear-gradient(#1974d2,#7442c8);
+	background: -webkit-linear-gradient(#0076cc,#7442c8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -1049,7 +1049,7 @@
     .ashead{
     	text-align: center;	
     	font-size: 3vh;
-    	background: -webkit-linear-gradient(#1974d2,#7442c8);
+    	background: -webkit-linear-gradient(#0076cc,#7442c8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     }
