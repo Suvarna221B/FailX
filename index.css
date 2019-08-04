@@ -249,7 +249,7 @@
 }
 
 .logoimg>center>img{
-	max-width: 55vh;
+	max-width: 50vh;
 	max-height: 55vh;
 	/* margin-top:0vh; */
 	/* border: 1px solid red; */
@@ -366,8 +366,9 @@
 
 		@media screen and (max-width: 1850px) {
 			.logoimg{
-				margin-top: 0vh;
+				margin-top: -10vh;
 				max-width:40%;
+				margin-left:32vh;
 			}
 
 			.logoimg>center>img{
@@ -1366,7 +1367,7 @@
 	{
 		.topHead
 		{
-			margin-top:0vh;
+			margin-top:-10vh;
 		}
 	}
 
