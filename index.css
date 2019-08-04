@@ -366,8 +366,9 @@
 
 		@media screen and (max-width: 1850px) {
 			.logoimg{
-				margin-top: 0vh;
+				margin-top: -10vh;
 				max-width:40%;
+				margin-left:32vh;
 			}
 
 			.logoimg>center>img{
@@ -1366,7 +1367,7 @@
 	{
 		.topHead
 		{
-			margin-top:0vh;
+			margin-top:-10vh;
 		}
 	}
 
