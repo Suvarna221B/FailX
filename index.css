@@ -28,6 +28,15 @@
 			vertical-align:middle;
 			color:transparent;
 		}
+		@media screen and (max-width:767px)
+		{
+			.navbar-default .navbar-brand {
+				margin-top:-10px;
+				vertical-align:middle;
+				color:transparent;
+			}
+
+		}
 		
 		
 		.navbar-default .navbar-brand:hover {
@@ -82,6 +91,8 @@
 		.navbar-default .navbar-collapse.collapse.in ul {
 			color:black;
 			background-color: white;
+			box-shadow: 0 4px 2px -2px rgba(76, 0, 255, 0.2);
+			
 			margin-top:0px;
 			position: relative;
 		
@@ -229,6 +240,7 @@
 		
 	}
 }
+
 
 .logoimg{
 
