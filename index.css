@@ -220,14 +220,18 @@
 	
 }
 @media screen and (max-width: 768px) {
+	.logoimg>center>img{
+		/* max-width: 90vw; */
+		margin-top: -8vh;
+	}
 	.topHead
 	{
 		margin-top:1vh;
-		font-size:8vw;
+		font-size:3.5vw;
 	}
 	.topCon
 	{
-		font-size:20px;
+		font-size:2vw;
 	}
 }
 @media (min-width: 840px) and (max-width: 1800px) {
@@ -586,11 +590,18 @@
 		.logoimg{
 			max-width: 70%;
 			margin-top: -10vh;
-			margin-left:15vw;
+			margin-left:16vw;
 		}
 
 		.logoimg>center>img{
 			max-width: 50vw;
+		}
+
+		.topHead{
+			font-size: 2vw;
+		}
+		.topCon{
+			font-size: 3vw;
 		}
 
 		/* Section/Article */
