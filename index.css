@@ -31,7 +31,7 @@
 		@media screen and (max-width:767px)
 		{
 			.navbar-default .navbar-brand {
-				margin-top:-10px;
+				margin-top:-1.65vh;
 				vertical-align:middle;
 				color:transparent;
 			}
