@@ -883,7 +883,7 @@
 		.about{
 			
 			width:100vw;
-			height:70vh;
+			height:80vh;
 			margin-bottom:-120px;
 			/* border: 3px solid red; */
 			/* display:flex; */
@@ -941,19 +941,19 @@
 		 {
 			 .about{
 				 height:auto;
-				 margin-bottom:170px;
+				 margin-bottom:400px;
 			 }
 		 }
 		 @media (min-width: 400px) and (max-width: 500px){
 			.about{
 				height:auto;
-				margin-bottom:500px;
+				margin-bottom:830px;
 			}
 			}
 	 @media (min-width: 320px) and (max-width: 399px)  {
 			.about{
 				height:auto;	
-				margin-bottom:370px;
+				margin-bottom:640px;
 			}
 			.respon
 		 	{
