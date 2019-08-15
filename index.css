@@ -1036,7 +1036,13 @@
 	
 
 		
-		
+		@media (min-width: 1025px) and (max-width: 1800px){
+
+			.about{
+				height:auto;	
+				margin-bottom:500px;
+			}
+		}
 		
 	
 	
