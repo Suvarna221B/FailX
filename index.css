@@ -24,7 +24,7 @@
 			transition: background-color 1s ease 0s;
 		}
 		.navbar-default .navbar-brand {
-			margin-top:0px;
+			margin-top:-1vh;
 			vertical-align:middle;
 			color:transparent;
 		}
@@ -36,6 +36,14 @@
 				color:transparent;
 			}
 
+		}
+		@media (min-width:768px) and (max-width:1914px)
+		{
+			.navbar-default .navbar-brand{
+				margin-top:.2vh;
+
+
+			}
 		}
 		
 		
