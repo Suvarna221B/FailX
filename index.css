@@ -1493,6 +1493,7 @@
 		}
 
 
+.	
   
 	
 }/*.whyassociate{
@@ -2529,6 +2530,157 @@ background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
 	
 	
 }
+
+.wrapper1{
+		
+			display: grid;
+    	justify-content: space-around;
+  		grid-template-columns: auto auto;
+  		grid-row-gap: 2vh;
+  		grid-column-gap:3vw;
+  		padding: 0vw 10vw;
+  		padding-top: 10vh;
+  		padding-bottom: 5vh;
+	}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  
+    	
+	
+		.associationHead
+		{
+		
+			font-size:5vh;
+
+			padding-top:1vh;
+		}
+		.wrapper1{
+			grid-template-columns: auto;
+			text-align: center;
+		}
+		.ascImg1{
+
+		}
+		.ascImg2{
+
+			}
+				
+
+  
+	}
+	@media (min-width: 400px) and (max-width:500px) 
+	{
+		
+			.associationHead
+		{
+		
+			font-size:4vh;
+
+			padding-top:1vh;
+		}
+		.wrapper1{
+			grid-template-columns: auto;
+			text-align: center;
+		}
+		.ascImg1{
+			height: 20vh;
+		}
+		.ascImg2{
+			height: 20vh;
+			}
+}
+	
+
+	@media (min-width: 320px) and (max-width: 399px) {
+  
+		.associationHead
+		{
+		
+			font-size:4vh;
+
+			padding-top:1vh;
+		}
+		.wrapper1{
+			grid-template-columns: auto;
+			text-align: center;
+		}
+		.ascImg1{
+			height: 20vh;
+		}
+		.ascImg2{
+			height: 20vh;
+			}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+		.associationHead
+		{
+		
+			font-size:4vh;
+
+			padding-top:1vh;
+		}
+		.wrapper1{
+			grid-template-columns: auto;
+			text-align: center;
+		}
+		.ascImg1{
+			height: 20vh;
+		}
+		.ascImg2{
+			height: 20vh;
+			}
+}
+
+  
+	}
+	
+	
+	@media (min-width: 1025px) and (max-width: 1800px){
+		
+		.grid-item1{
+			width:70vw;
+			text-align: center;
+		}
+		.images{
+			border-radius: 50%;
+			
+			padding-left: 0vw;
+		}
+		.as{
+			font-size: 2.8vh;
+		}
+		.ashead{
+			font-size: 3vh;
+		}
+	}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+		.associationHead
+		{
+		
+			font-size:4vh;
+
+			padding-top:1vh;
+		}
+		.wrapper1{
+			grid-template-columns: auto;
+			text-align: center;
+		}
+		.ascImg1{
+			height: 20vh;
+		}
+		.ascImg2{
+			height: 20vh;
+			}
+}
+
+
+
+
+
 .sponsors-container img {
 	
 	padding: 2%;
@@ -2538,20 +2690,3 @@ background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
 	padding: 1.5em 0; }
 
 	
-	  
-
-
-	
-
-	  .row {
-		display: flex;
-	  }
-	  
-	  .column {
-		flex: 33.33%;
-		padding: 5px;
-		margin-left:36vh;
-	  }
-
-
-	 
