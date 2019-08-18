@@ -2509,7 +2509,7 @@ background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
 			margin-top:1vh;
 			align-content: center;
 			
-	    	font-size: 4vw;
+	    	font-size: 3vw;
 	    	text-align:center;
 	    	font-family:'Montserrat';	
 
@@ -2539,7 +2539,7 @@ background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
   		grid-row-gap: 2vh;
   		grid-column-gap:3vw;
   		padding: 0vw 10vw;
-  		padding-top: 10vh;
+  		padding-top: 5vh;
   		padding-bottom: 5vh;
 	}
 
